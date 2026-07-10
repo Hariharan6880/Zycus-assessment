@@ -51,6 +51,8 @@ a project is Red.
 Every non-obvious decision in the code — which columns to trust, which to
 drop, how to handle duplicates, why a comment column matters — is backed by
 a specific test against the sample data. See:
+- `ARCHITECTURE.md` — full design & architecture walkthrough (diagrams, key
+  decisions, module responsibilities, data flow)
 - `RAG_Methodology.md` — the one-page framework (Phase 1 deliverable)
 - `Data_Dictionary.md` — every column in both sample files, profiled and
   verified, with evidence for every claim
