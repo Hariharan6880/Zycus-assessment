@@ -1,0 +1,45 @@
+name: Weekly project health report
+
+# Runs every Monday 06:00 UTC, and can also be triggered manually from the
+# Actions tab (workflow_dispatch) for testing without waiting a week.
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+# Needed so the auto-commit step can push the refreshed reports/ + storage/
+# back to the repository.
+permissions:
+  contents: write
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # No `npm install` here: the weekly report is pure Python. Node/pptxgenjs
+      # is only needed to build the monthly decks (see monthly-report.yml).
+
+      - name: Run weekly report for all projects
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python run_weekly_all.py
+
+      # Persist the generated reports and the accumulating history so
+      # week-over-week trend deltas actually survive between runs (the runner
+      # is wiped after each job).
+      - name: Commit and push updated reports + history
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: weekly project health report [skip ci]'
+          file_pattern: 'reports/** storage/**'

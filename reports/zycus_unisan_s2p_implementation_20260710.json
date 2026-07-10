@@ -1,0 +1,113 @@
+{
+  "signals": {
+    "project_name": "Zycus - UniSan S2P Implementation",
+    "as_of": "2026-07-10T00:00:00",
+    "overall_rag": "Red",
+    "schedule": {
+      "name": "Schedule Slippage",
+      "color": "Red",
+      "pct_overdue": 25.9,
+      "overdue_count": 44,
+      "active_count": 170,
+      "overdue_tasks": [
+        "Admin Training",
+        "Hypercare Phase I",
+        "iSource Configuration Documentation Workshop",
+        "eProc, eInvoice and Merlin APSD Configuration Documentation Workshop",
+        "CLM Additional Approval Workflow Documentation Workshop",
+        "Integration Configuration Documentation Workshop ( eInovoice, iContract)",
+        "iSource Configuration Documentation",
+        "eProc, eInvoice and Merlin APSD Configuration Documentation",
+        "CLM Configuration Documentation",
+        "iSupplier Configuration Documentation",
+        "User Roles configuration",
+        "Admin settings configuration",
+        "Readiness for Pre-UAT",
+        "Review of TDD and share feedback with Zycus",
+        "Sign off on TDD",
+        "Integration set up and development at Zycus",
+        "Integration development at UniSan - as applicable",
+        "Integration Unit Testing and Feedback Incorporation",
+        "SIT on STAGING Set Up",
+        "Sign off on SIT",
+        "eProc Integration: Completion of Design",
+        "eProc Integration: Completion of Development and Testing",
+        "eProc Integration: Completion of SIT",
+        "Review of TDD and share feedback with Zycus",
+        "Sign off on TDD",
+        "Integration set up and development at Zycus",
+        "Integration development at UniSan - as applicable",
+        "Integration Unit Testing and Feedback Incorporation",
+        "eProc Integration: Completion of Design",
+        "Mapping activity for Integration",
+        "Share TDD for interface",
+        "Review of TDD and share feedback with Zycus",
+        "Sign off on TDD",
+        "eInvoice Integration: Completion of Design",
+        "UniSan to provide supplier bulk upload data in the template provided by Zycus from UniSan's Staging environment",
+        "Zycus to review the files and provide feedback",
+        "UniSan to provide updated bulk upload data",
+        "Zycus to bulk upload supplier data on STAGING setup",
+        "UniSan to review bulk uploaded data",
+        "UniSan to sign off on supplier bulk upload",
+        "Review of TDD and share feedback with Zycus",
+        "Sign off on TDD",
+        "Integration development at UniSan - as applicable",
+        "eInvoice Integration: Completion of Design"
+      ]
+    },
+    "critical_path": {
+      "name": "Critical-Path Override",
+      "color": "Red",
+      "overdue_critical_count": 3,
+      "overdue_critical_tasks": [
+        "iSource Configuration Documentation Workshop",
+        "eProc, eInvoice and Merlin APSD Configuration Documentation Workshop",
+        "CLM Additional Approval Workflow Documentation Workshop"
+      ]
+    },
+    "milestone": {
+      "name": "Milestone Health",
+      "color": "Amber",
+      "pct_overdue": 5.1,
+      "total_phases": 39,
+      "overdue_phases": [
+        {
+          "name": "Training Phase I",
+          "end_date": "2026-05-28 00:00:00"
+        },
+        {
+          "name": "Hypercare Phase I",
+          "end_date": "2026-07-06 00:00:00"
+        }
+      ]
+    },
+    "data_integrity": {
+      "name": "Data Integrity Check",
+      "color": "Green",
+      "contradictions": []
+    },
+    "blockers_sentiment": {
+      "name": "Blockers & Sentiment",
+      "is_lagging_indicator": true,
+      "overdue_count": 44,
+      "on_hold_count": 0,
+      "comment_data_available": false,
+      "flagged_comments": null,
+      "note": "insufficient data \u2014 no stakeholder comments present in this file"
+    },
+    "source_conflicts": []
+  },
+  "narrative": {
+    "text": "\"Zycus - UniSan S2P Implementation\" is assessed as Red as of 2026-07-10. Schedule slippage is Red: 44 of 170 active tasks (25.9%) are past their end date without being completed. 3 overdue task(s) are on the critical path (e.g. \"iSource Configuration Documentation Workshop\"), which is why the critical-path override is Red. Milestone health is Amber: 5.1% of major phases are overdue (Training Phase I, Hypercare Phase I). No stakeholder comment data is available for this project, so sentiment could not be assessed.",
+    "generated_by": "fallback-template",
+    "fallback_reason": "GEMINI_API_KEY not set"
+  },
+  "trend": {
+    "prior_as_of": "2026-07-10",
+    "overall_rag_change": "Red -> Red",
+    "pct_overdue_change": 0.0,
+    "overdue_count_change": 0,
+    "milestone_pct_change": 0.0
+  }
+}

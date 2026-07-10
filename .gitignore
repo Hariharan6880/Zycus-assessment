@@ -1,0 +1,17 @@
+# Secrets — never commit real API keys
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Intermediate build artifacts (regenerated each run — not persisted).
+# NOTE: reports/decks/ is intentionally NOT ignored — the monthly GitHub Action
+# commits the finished .pptx decks there so they persist between runs.
+reports/deck_data/
+synthesis_output.json
+INTERNAL_ONLY_Portfolio_Health.pptx

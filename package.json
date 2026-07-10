@@ -1,0 +1,13 @@
+{
+  "name": "zycus-phase3-decks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 3 deck templates (client-facing + internal-only) built with pptxgenjs. Data is prepared in Python; these Node scripts are the fixed slide templates.",
+  "scripts": {
+    "client-deck": "node build_client_deck.js",
+    "internal-deck": "node build_deck.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}
