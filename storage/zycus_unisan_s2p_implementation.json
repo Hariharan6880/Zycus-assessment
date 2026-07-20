@@ -1000,6 +1000,132 @@
         "note": "insufficient data \u2014 no stakeholder comments present in this file"
       },
       "source_conflicts": []
+    },
+    {
+      "project_name": "Zycus - UniSan S2P Implementation",
+      "as_of": "2026-07-20T08:48:57.313219",
+      "overall_rag": "Red",
+      "schedule": {
+        "name": "Schedule Slippage",
+        "color": "Red",
+        "pct_overdue": 40.0,
+        "overdue_count": 68,
+        "active_count": 170,
+        "overdue_tasks": [
+          "Admin Training",
+          "Hypercare Phase I",
+          "iSource Configuration Documentation Workshop",
+          "eProc, eInvoice and Merlin APSD Configuration Documentation Workshop",
+          "CLM Additional Approval Workflow Documentation Workshop",
+          "Merlin Intake Configuration Documentation Workshop",
+          "Integration Configuration Documentation Workshop ( eInovoice, iContract)",
+          "iSource Configuration Documentation",
+          "eProc, eInvoice and Merlin APSD Configuration Documentation",
+          "CLM Configuration Documentation",
+          "iSupplier Configuration Documentation",
+          "Merlin Intake Configuration Documentation",
+          "IAD Review for all modules",
+          "User Roles configuration",
+          "Admin settings configuration",
+          "Readiness for Pre-UAT",
+          "Pre-UAT - Provide End to end walkthrough of configured eProc and eInvoice to the Customer",
+          "Provide feedback - if any for eProc configuration",
+          "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+          "Sign off on Pre-UAT and final version of IAD",
+          "eProc : Conclude Functional Configuration",
+          "Review of TDD and share feedback with Zycus",
+          "Sign off on TDD",
+          "Integration set up and development at Zycus",
+          "Integration development at UniSan - as applicable",
+          "Integration Unit Testing and Feedback Incorporation",
+          "SIT on STAGING Set Up",
+          "Sign off on SIT",
+          "eProc Integration: Completion of Design",
+          "eProc Integration: Completion of Development and Testing",
+          "eProc Integration: Completion of SIT",
+          "Review of TDD and share feedback with Zycus",
+          "Sign off on TDD",
+          "Integration set up and development at Zycus",
+          "Integration development at UniSan - as applicable",
+          "Integration Unit Testing and Feedback Incorporation",
+          "SIT on STAGING Set Up",
+          "Sign off on SIT",
+          "eProc Integration: Completion of Design",
+          "eProc Integration: Completion of Development and Testing",
+          "eProc Integration: Completion of SIT",
+          "Mapping activity for Integration",
+          "Share TDD for interface",
+          "Review of TDD and share feedback with Zycus",
+          "Sign off on TDD",
+          "eInvoice Integration: Completion of Design",
+          "Zycus to provide walkthrough of shared template to UniSan",
+          "UniSan to provide historical contracts details for Bulk Upload",
+          "Zycus to review shared details and provide feedback - if any",
+          "UniSan to incorporate feedback and provide revised final details of historical contracts for bulk upload into iContract",
+          "Zycus to ensure supplier details availability in STAGING",
+          "UniSan to provide supplier bulk upload data in the template provided by Zycus from UniSan's Staging environment",
+          "Zycus to review the files and provide feedback",
+          "UniSan to provide updated bulk upload data",
+          "Zycus to bulk upload supplier data on STAGING setup",
+          "UniSan to review bulk uploaded data",
+          "UniSan to sign off on supplier bulk upload",
+          "UniSan Prod migration Supplier",
+          "Review of TDD and share feedback with Zycus",
+          "Sign off on TDD",
+          "Integration set up and development at Zycus",
+          "Integration development at UniSan - as applicable",
+          "Integration Unit Testing and Feedback Incorporation",
+          "SIT on STAGING Set Up",
+          "Sign off on SIT",
+          "eInvoice Integration: Completion of Design",
+          "eInvoice Integration: Completion of Development and Testing",
+          "eInvoice Integration: Completion of SIT"
+        ]
+      },
+      "critical_path": {
+        "name": "Critical-Path Override",
+        "color": "Red",
+        "overdue_critical_count": 6,
+        "overdue_critical_tasks": [
+          "iSource Configuration Documentation Workshop",
+          "eProc, eInvoice and Merlin APSD Configuration Documentation Workshop",
+          "CLM Additional Approval Workflow Documentation Workshop",
+          "Merlin Intake Configuration Documentation Workshop",
+          "Merlin Intake Configuration Documentation",
+          "IAD Review for all modules"
+        ]
+      },
+      "milestone": {
+        "name": "Milestone Health",
+        "color": "Amber",
+        "pct_overdue": 5.1,
+        "total_phases": 39,
+        "overdue_phases": [
+          {
+            "name": "Training Phase I",
+            "end_date": "2026-05-28 00:00:00"
+          },
+          {
+            "name": "Hypercare Phase I",
+            "end_date": "2026-07-06 00:00:00"
+          }
+        ]
+      },
+      "data_integrity": {
+        "name": "Data Integrity Check",
+        "color": "Green",
+        "contradictions": []
+      },
+      "blockers_sentiment": {
+        "name": "Blockers & Sentiment",
+        "is_lagging_indicator": true,
+        "overdue_count": 68,
+        "on_hold_count": 0,
+        "comment_data_available": false,
+        "flagged_comments": null,
+        "note": "insufficient data \u2014 no stakeholder comments present in this file"
+      },
+      "source_conflicts": []
     }
   ]
 }
