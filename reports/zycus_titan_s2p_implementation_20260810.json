@@ -1,0 +1,246 @@
+{
+  "signals": {
+    "project_name": "Zycus - Titan S2P Implementation",
+    "as_of": "2026-08-10T07:20:28.536372",
+    "overall_rag": "Red",
+    "schedule": {
+      "name": "Schedule Slippage",
+      "color": "Red",
+      "pct_overdue": 61.5,
+      "overdue_count": 91,
+      "active_count": 148,
+      "overdue_tasks": [
+        "Supplier data to be provided by Customer",
+        "Data Load-Historical and bulk upload - iContract",
+        "Onboard and Introduce TAM team to Customer",
+        "Walkthrough of post hypercare support process by TAM team",
+        "Hypercare Support",
+        "Master data to be provided by OTK team",
+        "Workflow details & CULT table details to be provided by OTK",
+        "Develop & Publish 1st draft of Implementation Approach Document (IAD) for eProc-eInvoice",
+        "eProc-eInvoice IAD Review and Sign off by Titan",
+        "eInvoice integration use cases discussion-Invoice,creditmemo,payment,apportionment",
+        "eProc integration use cases discussion-create,edit,cancel,close",
+        "Master data discussion overall and connectivity-2 master data-Increase the days based on master data count including DDT/DMT",
+        "Review and feedback incorporation",
+        "Sign off on LLD",
+        "User Roles configuration",
+        "Admin settings configuration",
+        "Configure Workflow",
+        "Readiness for Pre-UAT",
+        "Pre-UAT - Provide End to end walkthrough of configured eProc to the Customer",
+        "Pre-UAT for eInvoice",
+        "Provide feedback - if any for eProc configuration",
+        "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+        "Sign off on Pre-UAT and final version of IAD",
+        "eInvoice : Conclude Functional Configuration",
+        "Mapping activity for Integration",
+        "Share TDD for interface",
+        "Review of TDD and share feedback with Zycus",
+        "Sign off on TDD",
+        "Questionnaire Sharing and Sample Files with Supplier",
+        "Supplier Registration on ZSN staging",
+        "Punchout Setup and Connectivity testing",
+        "PO and Invoice Unit Testing",
+        "Zycus test case documentation",
+        "SIT on STAGING Set Up",
+        "Sign off on SIT",
+        "Questionnaire Sharing and Sample Files with Supplier",
+        "Supplier Registration on ZSN staging",
+        "Punchout Setup and Connectivity testing",
+        "PO and Invoice Unit Testing",
+        "Zycus test case documentation",
+        "SIT on STAGING Set Up",
+        "Sign off on SIT",
+        "Questionnaire Sharing and Sample Files with Supplier",
+        "Supplier Registration on ZSN staging",
+        "Punchout Setup and Connectivity testing",
+        "PO and Invoice Unit Testing",
+        "Zycus test case documentation",
+        "SIT on STAGING Set Up",
+        "Sign off on SIT",
+        "User Roles configuration",
+        "Admin settings configuration",
+        "Configure Workflow",
+        "Readiness for Pre-UAT",
+        "Pre-UAT - Provide End to end walkthrough of configured eProc to the Customer",
+        "Pre-UAT for eProc Direct",
+        "Provide feedback - if any for eProc Direct configuration",
+        "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+        "Sign off on Pre-UAT and final version of IAD",
+        "eProc Direct : Conclude Functional Configuration",
+        "Mapping activity for Integration",
+        "Share TDD for interface",
+        "Review of TDD and share feedback with Zycus",
+        "Sign off on TDD",
+        "User Roles configuration",
+        "Admin settings configuration",
+        "Configure Workflow",
+        "Readiness for Pre-UAT",
+        "Pre-UAT - Provide End to end walkthrough of configured eProc to the Customer",
+        "eProc Direct Pre-UAT",
+        "Provide feedback - if any for eProc configuration",
+        "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+        "Sign off on Pre-UAT and final version of IAD",
+        "eProc Direct : Conclude Functional Configuration",
+        "Mapping activity for Integration",
+        "Share TDD for interface",
+        "Review of TDD and share feedback with Zycus",
+        "Sign off on TDD",
+        "User Roles configuration",
+        "Admin settings configuration",
+        "Configure Workflow",
+        "Readiness for Pre-UAT",
+        "Pre-UAT - Provide End to end walkthrough of configured eProc to the Customer",
+        "Pre-UAT of Master Data",
+        "Provide feedback - if any for masterdata configuration",
+        "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+        "Sign off on Pre-UAT and final version of IAD",
+        "Master Data: Conclude Functional Configuration",
+        "Mapping activity for Integration",
+        "Share TDD for interface",
+        "Review of TDD and share feedback with Zycus",
+        "Sign off on TDD"
+      ]
+    },
+    "critical_path": {
+      "name": "Critical-Path Override",
+      "color": "Green",
+      "overdue_critical_count": 0,
+      "overdue_critical_tasks": []
+    },
+    "milestone": {
+      "name": "Milestone Health",
+      "color": "Red",
+      "pct_overdue": 28.6,
+      "total_phases": 14,
+      "overdue_phases": [
+        {
+          "name": "Build",
+          "end_date": "2026-05-19 00:00:00"
+        },
+        {
+          "name": "Migration",
+          "end_date": "2026-06-12 00:00:00"
+        },
+        {
+          "name": "Hypercare",
+          "end_date": "2026-07-14 00:00:00"
+        },
+        {
+          "name": "Configuration Documentation workshop",
+          "end_date": "2026-07-13 00:00:00"
+        }
+      ]
+    },
+    "data_integrity": {
+      "name": "Data Integrity Check",
+      "color": "Amber",
+      "contradictions": [
+        {
+          "task_name": "Go Value discussion & Project Plan",
+          "status": "Completed",
+          "pct_complete": 1,
+          "comment": "Yet to recieve Sign off",
+          "source": "row_column"
+        },
+        {
+          "task_name": "Draft IAD discussion & Sign off",
+          "status": "Completed",
+          "pct_complete": 1,
+          "comment": "Yet to recieve Sign off",
+          "source": "row_column"
+        },
+        {
+          "task_name": "Working integrations demo for iSupplier &   \nOverall integration summary and next steps discussion",
+          "status": "Not Applicable",
+          "pct_complete": 1,
+          "comment": "TBD ,depends on 66,67,68",
+          "source": "row_column"
+        }
+      ],
+      "investigations": [
+        {
+          "enriched_finding": "Yet to recieve Sign off",
+          "tool_calls": [],
+          "generated_by": "fallback-no-investigation"
+        },
+        {
+          "enriched_finding": "Yet to recieve Sign off",
+          "tool_calls": [],
+          "generated_by": "fallback-no-investigation"
+        },
+        {
+          "enriched_finding": "TBD ,depends on 66,67,68",
+          "tool_calls": [],
+          "generated_by": "fallback-no-investigation"
+        }
+      ]
+    },
+    "blockers_sentiment": {
+      "name": "Blockers & Sentiment",
+      "is_lagging_indicator": true,
+      "overdue_count": 91,
+      "on_hold_count": 3,
+      "comment_data_available": true,
+      "flagged_comments": [
+        {
+          "task_name": "Go Value discussion & Project Plan",
+          "comment": "Yet to recieve Sign off",
+          "source": "row_column"
+        },
+        {
+          "task_name": "Draft IAD discussion & Sign off",
+          "comment": "Yet to recieve Sign off",
+          "source": "row_column"
+        },
+        {
+          "task_name": "Configuration Documentation workshop",
+          "comment": "Due to parallel phase 1 activities onsite workshop dates are impacted",
+          "source": "comments_sheet"
+        },
+        {
+          "task_name": "eInvoice outbound",
+          "comment": "JDE mapping is pending only",
+          "source": "comments_sheet"
+        },
+        {
+          "task_name": "eProc Direct & Indirect",
+          "comment": "JDE field mapping remain to complete for PO outbound & GR Inbound @vinayaka.soratoor@zycus.com",
+          "source": "comments_sheet"
+        },
+        {
+          "task_name": "Integration Design",
+          "comment": "@aftab.hashambhai@zycus.com Need meeting on calendar for this",
+          "source": "comments_sheet"
+        },
+        {
+          "task_name": "Integration set up and development at Zycus",
+          "comment": "@aftab.hashambhai@zycus.com  PH name need to be changed",
+          "source": "comments_sheet"
+        },
+        {
+          "task_name": "Integration Design",
+          "comment": "@aftab.hashambhai@zycus.com  Need to have these on calendar, as a outcome of workshop mapping will be complete, OTK will have time till this date to review and make any changes",
+          "source": "comments_sheet"
+        }
+      ],
+      "note": null
+    },
+    "source_conflicts": [
+      "Source file's own Schedule Health is 'Green', but this agent computed 'Red' from independently verified signals."
+    ]
+  },
+  "narrative": {
+    "text": "\"Zycus - Titan S2P Implementation\" is assessed as Red as of 2026-08-10. Schedule slippage is Red: 91 of 148 active tasks (61.5%) are past their end date without being completed. Milestone health is Red: 28.6% of major phases are overdue (Build, Migration, Hypercare, Configuration Documentation workshop). A data integrity issue was found: 3 task(s) are marked complete but their own comments suggest otherwise (e.g. \"Go Value discussion & Project Plan\" \u2014 \"Yet to recieve Sign off\"). This is reported directly since it would otherwise be invisible. 8 stakeholder comment(s) reference blockers or open risk items, e.g. \"Yet to recieve Sign off\". Source file's own Schedule Health is 'Green', but this agent computed 'Red' from independently verified signals.",
+    "generated_by": "fallback-template",
+    "fallback_reason": "GEMINI_API_KEY not set"
+  },
+  "trend": {
+    "prior_as_of": "2026-08-03",
+    "overall_rag_change": "Red -> Red",
+    "pct_overdue_change": 12.9,
+    "overdue_count_change": 19,
+    "milestone_pct_change": 0.0
+  }
+}
